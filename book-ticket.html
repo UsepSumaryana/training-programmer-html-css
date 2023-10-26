@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Bakhija menjual tiket bioskop secara online dengan harga murah dan proses pembelian yang mudah." />
+    <meta name="keywords" content="bioskop, tiket, film, bakhija, beli tiket, beli online" />
+    <meta name="author" content="Bakhija" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bakhija - Beli tiket</title>
+    <link rel="stylesheet" href="assets/css/book-ticket.css">
+    <script>
+        function chose(el) {
+            el.classList.toggle('chosen');
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="flex-between">
+                <a class="navbar-brand text-decoration-none" style="color: #212529; font-weight: bold;"
+                    href="main.html">BAKHIJA</a>
+                <form role="search">
+                    <input type="search" placeholder="Search Movie"
+                        style="border-radius: 20px; padding: 8px 12px; border: 1px solid #ced4da; width: 200px;">
+                </form>
+            </div>
+        </nav>
+        <div class="overlay">
+            <div class="overlay-content container flex">
+                <div class="poster-container">
+                    <img src="https://asset.tix.id/wp-content/uploads/2023/10/23SAWX.jpg" alt=""
+                        class="poster rounded-3">
+                </div>
+                <div class="description">
+                    <h1>SAW X</h1>
+                    <p>Mengejar sebuah pengobatan yang menjanjikan dapat menyembuhkan kankernya, John Kramer (Tobin
+                        Bell) menuju ke Meksiko untuk menjalani perawatan eksperimental, hanya untuk mengetahui bahwa
+                        dia menjadi mangsa dari sebuah penipuan. Kini, para scammer menjadi mangsa di permainan baru
+                        milik Jigsaw.</p>
+                    <h1 style="color:darkgoldenrod">4.7 / 5</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="schedule" style="margin-top:50px">
+            <h3>SCHEDULE</h3>
+            <div class="schedule-grid">
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <strong>Sunday</strong>
+                    <br>
+                    <span>20 Oct 2023</span>
+                </button>
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <strong>Monday</strong>
+                    <br>
+                    <span>21 Oct 2023</span>
+                </button>
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <strong>Thursday</strong>
+                    <br>
+                    <span>22 Oct 2023</span>
+                </button>
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <strong>Wedmesday</strong>
+                    <br>
+                    <span>23 Oct 2023</span>
+                </button>
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <strong>Friday</strong>
+                    <br>
+                    <span>24 Oct 2023</span>
+                </button>
+            </div>
+        </div>
+        <div class="time" style="margin-top:50px">
+            <h3>TIME</h3>
+            <div class="time-grid">
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <span>10:00 WIB</span>
+                </button>
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <span>12:00 WIB</span>
+                </button>
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <span>14:00 WIB</span>
+                </button>
+                <button class="btn-transparent ms-3" onclick="chose(this)">
+                    <span>16:00 WIB</span>
+                </button>
+            </div>
+        </div>
+        <div style="margin-top:50px;position: relative;">
+            <h3>SEAT</h3>
+            <div class="seat-grid">
+                <div class="div1">
+                    <button class="btn-booked">1A</button>
+                </div>
+                <div class="div2">
+                    <button class="btn-transparent" onclick="chose(this)">2A</button>
+                </div>
+                <div class="div3">
+                    <button class="btn-transparent" onclick="chose(this)">3A</button>
+                </div>
+                <div class="div4">
+                    <button class="btn-transparent" onclick="chose(this)">4A</button>
+                </div>
+                <div class="div5">
+                    <button class="btn-transparent " onclick="chose(this)">5A</button>
+                </div>
+                <div class="div6">
+                    <button class="btn-transparent " onclick="chose(this)">6A</button>
+                </div>
+                <div class="div7">
+                    <button class="btn-transparent " onclick="chose(this)">7A</button>
+                </div>
+                <div class="div8">
+                    <button class="btn-transparent " onclick="chose(this)">8A</button>
+                </div>
+                <div class="div9">
+                    <button class="btn-transparent " onclick="chose(this)">1B</button>
+                </div>
+                <div class="div10">
+                    <button class="btn-transparent " onclick="chose(this)">2B</button>
+                </div>
+                <div class="div11">
+                    <button class="btn-transparent " onclick="chose(this)">3B</button>
+                </div>
+                <div class="div12">
+                    <button class="btn-transparent " onclick="chose(this)">4B</button>
+                </div>
+                <div class="div13">
+                    <button class="btn-transparent " onclick="chose(this)">5B</button>
+                </div>
+                <div class="div14">
+                    <button class="btn-transparent " onclick="chose(this)">6B</button>
+                </div>
+                <div class="div15">
+                    <button class="btn-transparent " onclick="chose(this)">7B</button>
+                </div>
+                <div class="div16">
+                    <button class="btn-transparent " onclick="chose(this)">8B</button>
+                </div>
+                <div class="div17">
+                    <button class="btn-transparent " onclick="chose(this)">1C</button>
+                </div>
+                <div class="div18">
+                    <button class="btn-transparent " onclick="chose(this)">2C</button>
+                </div>
+                <div class="div19">
+                    <button class="btn-transparent " onclick="chose(this)">3C</button>
+                </div>
+                <div class="div20">
+                    <button class="btn-transparent " onclick="chose(this)">4C</button>
+                </div>
+                <div class="div21">
+                    <button class="btn-transparent " onclick="chose(this)">5C</button>
+                </div>
+                <div class="div22">
+                    <button class="btn-transparent " onclick="chose(this)">6C</button>
+                </div>
+                <div class="div23">
+                    <button class="btn-transparent " onclick="chose(this)">7C</button>
+                </div>
+                <div class="div24">
+                    <button class="btn-transparent " onclick="chose(this)">8C</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-end">
+            <a href="payment.html">
+                <button class="btn-primary">Continue to Payment</button>
+            </a>
+        </div>
+    </div>
+    <footer class="mt-5 p-5">
+        <div class="container">
+            <div class="col-md-6 text-center text-md-left">
+                <p class="mb-2 mb-md-0">&copy; 2023 Bakhija. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+header {
+    background-image: url(https://images3.alphacoders.com/118/1186447.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner {
+    height: 100%;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 32%,
+        rgba(0, 0, 0, 0.7315301120448179) 76%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+.row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.image {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image:hover .image-overlay {
+    opacity: 1;
+}
+
+.btn-buy-ticket:hover {
+    background-color: white;
+    color: black !important;
+}
